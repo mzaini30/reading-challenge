@@ -1,5 +1,6 @@
 body {
 	padding-top: 70px;
+	min-height: 800px;
 }
 
 .navbar-collapse li hr {
