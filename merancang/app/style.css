@@ -5,3 +5,20 @@ body {
 .navbar-collapse li hr {
 	margin: 0;
 }
+
+table tr:first-child td {
+	border-top: none;
+}
+
+.isi {
+	font-weight: bold;
+}
+.selesai {
+	text-decoration: line-through;
+	font-style: italic;
+	font-weight: normal;
+}
+
+.cek-container {
+	width: 52.8px;
+}
