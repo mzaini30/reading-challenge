@@ -14,17 +14,21 @@ $('.navbar-nav li a').click(function(){
 })
 
 if (localStorage.getItem('reading challenge') == null){
+	$('body').addClass('atur-tinggi')
 	$('#myModal').modal()
 	$('.progress').hide()
 } else {
+	$('body').removeClass('atur-tinggi')
 	$('.isi-target').html(localStorage.getItem('reading challenge'))
 	update_persen()
 }
 $('.buka-modal').click(function(){
+	$('body').addClass('atur-tinggi')
 	$('#myModal').modal()
 })
 
 $('.count').click(function(){
+	$('body').removeClass('atur-tinggi')
 	hasil_bagi = Math.ceil($('.total-pages').val() / $('.target-finish').val())
 	// $('title').html(hasil_bagi)
 	list_halaman = []
