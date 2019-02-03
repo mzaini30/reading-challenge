@@ -1,2 +1,1 @@
-# reading-challenge
-Berapa halaman buku yang harus dibaca hari ini?
+Melihat berapa jumlah halaman buku yang harus dibaca setiap hari.
